@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.tree-label{
+  display:flex;
+}
+.tree-label--item{
+  margin: 2px;
+  border-radius:4px;
+  padding: 4px 8px;
+  font-size:12px;
+  display: inline-block;
+}
+
+.treeNode {
+  padding: 20px 0px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: 30px;
+  border: 3px solid black;
+}
+
+.tree-stats  {
+  margin-left: 30px;
+}
+
+.nodeList {
+  list-style: none;
+}
+
+.nodeName {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.checkBoxInput  {
+  margin-left: 10px;
+}
+
+.nodeList--item {
+  display: flex;
+  align-items: center;
+}
