@@ -4,7 +4,6 @@ import Tree from './Tree';
 
 const Home = () => {
     
-    const [isClicked, setIsclicked] = useState(false)
     const [data, setData] = useState(DATA)
 
     return (
